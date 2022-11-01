@@ -14,8 +14,11 @@
     "jest": "^24.0.0"
   },
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "start": "node index.js"
   },
+  
+  "engines":{"node": "12.22.12"},
   "author": "Bianca Viana",
   "license": "ISC"
 }
